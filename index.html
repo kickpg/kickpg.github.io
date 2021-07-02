@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royalshine</title>
+    <link rel="stylesheet" href="./lib/css/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/css/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./lib/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <!-- Header-top -->
+            <div class="header-top">
+                <div class="header_wrapper">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img class="logo img-responsive" src="./lib/img/demo-store-logo-1588913234.jpg"
+                                alt="Royalshine - Jewellery Store">
+                        </a>
+                    </div>
+                    <div id="search_widget" class="col-lg-4 col-md-5 col-sm-12 search-widget">
+                        <span class="search_button"></span>
+                        <div class="search_toggle">
+                            <form method="get" action="#">
+                                <input type="hidden" name="controller" value="search">
+                                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input
+                                    type="text" name="s" value="" placeholder="Search Products"
+                                    class="ui-autocomplete-input" autocomplete="off">
+                                <button type="submit">
+                                    <span>Search</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="user">
+                            <a href="#" class="user-info">
+                                <img src="./lib/img/hinh3.PNG" alt="minh họa">
+                            </a>
+                        </div>
+
+                        <div class="wishlist-info">
+                            <a class="head-wishlist" href="#">
+                                <img src="./lib/img/hinh2.PNG" alt="minh họa" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="cart">
+                            <a class="shopping-cart " href="#">
+                                <img src="./lib/img/Hinh1.PNG" alt="Minh họa" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Header-inner -->
+        <div class="header-inner">
+            <div class="container">
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Necklace</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pendant</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Earring</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Bracelet</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">More</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto dropd1">
+                                <div class="dropdown Language">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Language
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                        <li><a class="dropdown-item" href="#">Francais</a></li>
+                                        <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                        <li><a class="dropdown-item" href="#">Italiano</a></li>
+                                        <li><a class="dropdown-item" href="#">Deutsch</a></li>Polski
+                                    </ul>
+                                </div>
+                                <div class="dropdown Currency">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Currency
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">EUR</a></li>
+                                        <li><a class="dropdown-item" href="#">USD</a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!--header thumbnail -->
+                <div id="slideshow">
+                    <a href="#">
+                        <div>
+                            <img src="./lib/img/hinh4.jpg" id="img" alt="">
+                        </div>
+                    </a>
+                </div>
+                <!-- Service -->
+                <div class="service-area">
+                    <div class="row">
+                        <div class="col-4 side">
+                            <div class="type">
+                                <img src="./lib/img/shipped.png" alt="anh minh hoa" class="img-fluid">
+                                <div class="delivery">Free Delivery</div>
+                                <div>Free shipping on all order</div>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="type">
+                                <img src="./lib/img/money.png" alt="anh minh hoa" class="img-fluid">
+                                <div class="money">Money Return</div>
+                                <div>Back guarantee in 7 days</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="type">
+                                <img src="./lib/img/price-tag.png" alt="anh minh hoa" class="img-fluid">
+                                <div class="discount">Member Discount</div>
+                                <div>Onevery order over $130.00</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Sub banner -->
+                <div class="sub-banner">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="banner1">
+                                <a href="#">
+                                    <img src="./lib/img/sub-banner-1.jpg" alt="anh minh hoa" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="banner2">
+                                <a href="#">
+                                    <img src="./lib/img/sub-banner-2.jpg" alt="anh minh hoa" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="tieu-de">
+                <h1 class="h1">Best Collection</h1>
+            </div>
+            <div class="nav-link-pro">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Featured Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">New Arrivals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Best Sellers</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="img-content">
+                <div class="img-pro">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="pro">
+                                <a href="#" class="product-img1">
+                                    <img src="./lib/img/hinh6.PNG" alt="anh minh hoa" class="img-fluid">
+                                </a>
+                                <img src="./lib/img/4stars.PNG" alt="">
+                                <a href="#" class="name-pro">
+                                    <div>Commodi Consequatur</div>
+                                </a>
+                                <div class="pro-price">$85.00</div>
+
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="pro">
+                                <a href="#" class="product-img">
+                                    <img src="./lib/img/hinh7.PNG" alt="anh minh hoa" class="img-fluid">
+                                </a>
+                                <img src="./lib/img/nostar.PNG" alt="">
+                                <a href="#" class="name-pro">
+                                    <div>Exercitat Virginia</div>
+                                </a>
+                                <div class="pro-price">$87.00</div>
+
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="pro">
+                                <a href="#" class="product-img">
+                                    <img src="./lib/img/hinh8.PNG" alt="anh minh hoa" class="img-fluid">
+                                </a>
+                                <img src="./lib/img/stars.PNG" alt="">
+                                <a href="#" class="name-pro">
+                                    <div>Accumsantium Doloremque</div>
+                                </a>
+                                <div class="pro-price">$110.00</div>
+
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="pro">
+                                <a href="#" class="product-img">
+                                    <img src="./lib/img/hinh9.PNG" alt="anh minh hoa" class="img-fluid">
+                                </a>
+                                <img src="./lib/img/4stars.PNG" alt="">
+                                <a href="#" class="name-pro">
+                                    <div>Voluptas Assumendaa</div>
+                                </a>
+                                <div class="pro-price">$78.00</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-area">
+                <div class="test-item">
+                    <div>
+                        <img src="./lib/img/user1.jpg" alt="" class="img-fluid user1">
+                    </div>
+                    <div>
+                        <img src="./lib/img/dauphay.PNG" alt="" class="dauphay">
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat inventore et possimus quis
+                        dolorum? Accusantium tempore recusandae reprehenderit consequuntur, et quidem eaque iusto
+                        maiores, magni vero, qui ipsam? Veritatis, illo.
+                        <div>- Mark Jofferson</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="img-banner1">
+                <a href="#">
+                    <img src="./lib/img/hinh10.PNG" alt="" class="banner2">
+                </a>
+            </div>
+            <div class="latest">
+                <h1 class="blog">Our Latest Blog</h1>
+            </div>
+            <div class="news-banner">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="news">
+                            <a href="#" class="news-img1">
+                                <img src="./lib/img/b-blog-4.jpg" alt="anh minh hoa" class="img-fluid">
+                            </a>
+                            <div>
+                                <img src="./lib/img/calendar.png" alt="">
+                                Dec18, 2019
+                            </div>
+                            <a href="#" class="title">
+                                <div>There are many variations of passages of Lorem Ipsum Available</div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="news">
+                            <a href="#" class="news-img2">
+                                <img src="./lib/img/b-blog-5.jpg" alt="anh minh hoa" class="img-fluid">
+                            </a>
+                            <div>
+                                <img src="./lib/img/calendar.png" alt="">
+                                Dec20, 2019
+                            </div>
+                            <a href="#" class="title">
+                                <div>The standard chunk of Lorem Ipsum used since the 1500s</div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="news">
+                            <a href="#" class="news-img3">
+                                <img src="./lib/img/b-blog-6.jpg" alt="anh minh hoa" class="img-fluid">
+                            </a>
+                            <div>
+                                <img src="./lib/img/calendar.png" alt="">
+                                Dec22, 2019
+                            </div>
+                            <a href="#" class="title">
+                                <div>Lorem Ipsum is therefore always free from repetition injected humour</div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fa-brand">
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#">
+                            <img src="./lib/img/brand1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#">
+                            <img src="./lib/img/brand2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#">
+                            <img src="./lib/img/brand3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#">
+                            <img src="./lib/img/brand4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#">
+                            <img src="./lib/img/brand5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="#">
+                            <img src="./lib/img/brand6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="letter-inner">
+                <div class="letter-title">
+                    <h4>Our Newsletter</h4>
+                </div>
+                <div class="txt">
+                    There are many variations of passages of Lorem Ipsum availale, but the majority have suffered
+                    alteration in some form humour, or randomised words which don't look even slightly
+                    believable.humour.
+                </div>
+                <div>
+                    <form class="d-flex">
+                        <input class="form-control me-2 email" type="search" placeholder="Enter Your Email Adress"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Submmit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="info-name">
+                        <h4> Store Information</h4>
+                    </div>
+                    <div>
+                        <img src="./lib/img/pin.png" alt="">
+                    </div>
+                    <div>
+                        Royalshine - Jewellery Store
+                    </div>
+                    <div>
+                        507-Union Trade ipsum Doler
+                    </div>
+                    <div>
+                        Centre
+                    </div>
+                    <div>
+                        France
+                    </div>
+                    <div>
+                        <img src="./lib/img/phone-call.png" alt="">
+                        123-456-7890
+                    </div>
+                    <div>
+                        <img src="./lib/img/mail.png" alt="">
+                        sales@yourcompany.com
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="info-name">
+                        <h4>Products</h4>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Prices drop
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            New products
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Best sales
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Contact us
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Sitemap
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="col-3">
+                    <div class="info-name">
+                        <h4>Our Company</h4>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Delivery
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Legal Notice
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Terms and conditions of use
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            About us
+                        </a>
+                    </div>
+                    <div >
+                        <a href="#" class="infor">
+                            Secure payment
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="info-name">
+                        <h4>Payment Method</h4>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./lib/img/pay1.jpg" alt="" class="pay">
+                            <img src="./lib/img/pay2.jpg" alt="" class="pay">
+                            <img src="./lib/img/pay3.jpg" alt="" class="pay">
+                            <img src="./lib/img/pay4.jpg" alt="" class="pay">
+                        </a>
+                    </div>
+                    <div>   </div>
+                    <div class="down">
+                        <h4>Download Application</h4>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./lib/img/down1.jpg" alt="">
+                            <img src="./lib/img/down2.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-after">
+                <div class="copy">
+                    &COPY; 2021 - HuynhMaiThanhTam
+                    <div class="icons">
+                        <a href="#"><img src="./lib/img/facebook.png" alt="" ></a>
+                    <a href="#"><img src="./lib/img/twitter.png" alt="" ></a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/js/javascripts.js"></script>
+</body>
+
+</html>
